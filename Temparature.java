@@ -60,7 +60,7 @@ public class Temparature extends JFrame implements ActionListener {
                         + " \nTry this steps:\n1) Check wheather all input are filled\n2) Check if you typed string if yes then change to number";
                 JOptionPane.showMessageDialog(null, output);
             }
-        } else if (e.getActionCommand() == "Convert to Celcius") {
+        } else if (e.getActionCommand() == "Convert to Celsius") {
             try {
                 double farenheit = 0, res_f_c = 0;
 
